@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 
 const ItemCount = ({stock, onAdd}) => {
     const [contador, setContador] = useState(1);

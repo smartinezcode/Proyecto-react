@@ -5,7 +5,7 @@ const Item = ({item}) => {
         <div className="col-md-4 mb-3">
             <div className="card">
                 <Link to={"/item/" + item.id}>
-                <img src={item.image} class="card-img-top" alt={item.title} />
+                <img src={item.image} className="card-img-top" alt={item.title} />
                 </Link>
                 
                 <div className="card-body">
